@@ -96,12 +96,12 @@ section .signin .content .form {
   gap: 25px;
 }
 
-section .signin .content .form .inbox {
+section .signin .content .form .inputbox {
   position: relative;
   width: 100%;
 }
 
-section .signin .content .form .inbox input {
+section .signin .content .form .inputbox input {
   position: relative;
   width: 100%;
   background: #333;
@@ -114,7 +114,7 @@ section .signin .content .form .inbox input {
   font-size: 1em;
 }
 
-section .signin .content .form .inbox i {
+section .signin .content .form .inputbox i {
   position: absolute;
   left: 0;
   padding: 15px 10px;
@@ -124,31 +124,31 @@ section .signin .content .form .inbox i {
   pointer-events: none;
 }
 
-.signin .content .form .inbox input:focus ~ i,
-.signin .content .form .inbox input:valid ~ i {
+.signin .content .form .inputbox input:focus ~ i,
+.signin .content .form .inputbox input:valid ~ i {
   transform: translateY(-7.5px);
   font-size: 0.8em;
   color: #fff;
 }
 
-.signin .content .form .linked {
+.signin .content .form .links {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-.signin .content .form .linked a {
+.signin .content .form .links a {
   color: #fff;
   text-decoration: none;
 }
 
-.signin .content .form .linked a:nth-child(2) {
+.signin .content .form .links a:nth-child(2) {
   color: #0f0;
   font-weight: 600;
 }
 
-.signin .content .form .inbox input[type="submit"] {
+.signin .content .form .inputbox input[type="submit"] {
   padding: 10px;
   background: #0f0;
   color: #111;
